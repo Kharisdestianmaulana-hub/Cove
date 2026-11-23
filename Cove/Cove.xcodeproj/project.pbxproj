@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5FFAD6E30B446DF008C60CD /* CoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FFAD6D30B446DF008C60CD /* CoveApp.swift */; };
+		D5FFAD7030B446DF008C60CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FFAD6F30B446DF008C60CD /* ContentView.swift */; };
+		C0CE000130B446DF008C60CD /* CoveTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001130B446DF008C60CD /* CoveTheme.swift */; };
+		C0CE000230B446DF008C60CD /* CameraModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001230B446DF008C60CD /* CameraModels.swift */; };
+		C0CE000330B446DF008C60CD /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001330B446DF008C60CD /* CameraManager.swift */; };
+		C0CE000430B446DF008C60CD /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001430B446DF008C60CD /* CameraPreviewView.swift */; };
+		C0CE000530B446DF008C60CD /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001530B446DF008C60CD /* MainWindowView.swift */; };
+		C0CE000630B446DF008C60CD /* MediaStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001630B446DF008C60CD /* MediaStorageManager.swift */; };
+		C0CE000730B446DF008C60CD /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001730B446DF008C60CD /* GalleryView.swift */; };
+		C0CE000830B446DF008C60CD /* CompositionOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001830B446DF008C60CD /* CompositionOverlayView.swift */; };
+		C0CE000930B446DF008C60CD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001930B446DF008C60CD /* SettingsView.swift */; };
+		C0CE000A30B446DF008C60CD /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001A30B446DF008C60CD /* ImageProcessor.swift */; };
+		C0CE000B30B446DF008C60CD /* MetalPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001B30B446DF008C60CD /* MetalPreviewView.swift */; };
+		C0CE000C30B446DF008C60CD /* VideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001C30B446DF008C60CD /* VideoRecorder.swift */; };
+		C0CE000D30B446DF008C60CD /* TeleprompterOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001D30B446DF008C60CD /* TeleprompterOverlayView.swift */; };
+		C0CE000E30B446DF008C60CD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE001E30B446DF008C60CD /* OnboardingView.swift */; };
+		D5FFAD7230B446E3008C60CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FFAD7130B446E3008C60CD /* Assets.xcassets */; };
+		D5FFAD7530B446E3008C60CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FFAD7430B446E3008C60CD /* Preview Assets.xcassets */; };
+		D5FFAD8030B446E4008C60CD /* CoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FFAD7F30B446E4008C60CD /* CoveTests.swift */; };
+		D5FFAD8A30B446E4008C60CD /* CoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FFAD8930B446E4008C60CD /* CoveUITests.swift */; };
+		D5FFAD8C30B446E4008C60CD /* CoveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FFAD8B30B446E4008C60CD /* CoveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5FFAD7C30B446E4008C60CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FFAD6230B446DF008C60CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FFAD6930B446DF008C60CD;
+			remoteInfo = Cove;
+		};
+		D5FFAD8630B446E4008C60CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FFAD6230B446DF008C60CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FFAD6930B446DF008C60CD;
+			remoteInfo = Cove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5FFAD6A30B446DF008C60CD /* Cove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FFAD6D30B446DF008C60CD /* CoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveApp.swift; sourceTree = "<group>"; };
+		D5FFAD6F30B446DF008C60CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0CE001130B446DF008C60CD /* CoveTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/CoveTheme.swift; sourceTree = "<group>"; };
+		C0CE001230B446DF008C60CD /* CameraModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/CameraModels.swift; sourceTree = "<group>"; };
+		C0CE001330B446DF008C60CD /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEngine/CameraManager.swift; sourceTree = "<group>"; };
+		C0CE001430B446DF008C60CD /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/CameraPreviewView.swift; sourceTree = "<group>"; };
+		C0CE001530B446DF008C60CD /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/MainWindowView.swift; sourceTree = "<group>"; };
+		C0CE001630B446DF008C60CD /* MediaStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage/MediaStorageManager.swift; sourceTree = "<group>"; };
+		C0CE001730B446DF008C60CD /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/GalleryView.swift; sourceTree = "<group>"; };
+		C0CE001830B446DF008C60CD /* CompositionOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/CompositionOverlayView.swift; sourceTree = "<group>"; };
+		C0CE001930B446DF008C60CD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/SettingsView.swift; sourceTree = "<group>"; };
+		C0CE001A30B446DF008C60CD /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessing/ImageProcessor.swift; sourceTree = "<group>"; };
+		C0CE001B30B446DF008C60CD /* MetalPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/MetalPreviewView.swift; sourceTree = "<group>"; };
+		C0CE001C30B446DF008C60CD /* VideoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEngine/VideoRecorder.swift; sourceTree = "<group>"; };
+		C0CE001D30B446DF008C60CD /* TeleprompterOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/TeleprompterOverlayView.swift; sourceTree = "<group>"; };
+		C0CE001E30B446DF008C60CD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/OnboardingView.swift; sourceTree = "<group>"; };
+		D5FFAD7130B446E3008C60CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5FFAD7430B446E3008C60CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5FFAD7630B446E3008C60CD /* Cove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cove.entitlements; sourceTree = "<group>"; };
+		D5FFAD7B30B446E4008C60CD /* CoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FFAD7F30B446E4008C60CD /* CoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveTests.swift; sourceTree = "<group>"; };
+		D5FFAD8530B446E4008C60CD /* CoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FFAD8930B446E4008C60CD /* CoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveUITests.swift; sourceTree = "<group>"; };
+		D5FFAD8B30B446E4008C60CD /* CoveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5FFAD6730B446DF008C60CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FFAD7830B446E4008C60CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FFAD8230B446E4008C60CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5FFAD6130B446DF008C60CD = {
+			isa = PBXGroup;
+			children = (
+				D5FFAD6C30B446DF008C60CD /* Cove */,
+				D5FFAD7E30B446E4008C60CD /* CoveTests */,
+				D5FFAD8830B446E4008C60CD /* CoveUITests */,
+				D5FFAD6B30B446DF008C60CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5FFAD6B30B446DF008C60CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5FFAD6A30B446DF008C60CD /* Cove.app */,
+				D5FFAD7B30B446E4008C60CD /* CoveTests.xctest */,
+				D5FFAD8530B446E4008C60CD /* CoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FFAD6C30B446DF008C60CD /* Cove */ = {
+			isa = PBXGroup;
+			children = (
+				D5FFAD6D30B446DF008C60CD /* CoveApp.swift */,
+				D5FFAD6F30B446DF008C60CD /* ContentView.swift */,
+				C0CE001130B446DF008C60CD /* CoveTheme.swift */,
+				C0CE001230B446DF008C60CD /* CameraModels.swift */,
+				C0CE001330B446DF008C60CD /* CameraManager.swift */,
+				C0CE001430B446DF008C60CD /* CameraPreviewView.swift */,
+				C0CE001530B446DF008C60CD /* MainWindowView.swift */,
+				C0CE001630B446DF008C60CD /* MediaStorageManager.swift */,
+				C0CE001730B446DF008C60CD /* GalleryView.swift */,
+				C0CE001830B446DF008C60CD /* CompositionOverlayView.swift */,
+				C0CE001930B446DF008C60CD /* SettingsView.swift */,
+				C0CE001A30B446DF008C60CD /* ImageProcessor.swift */,
+				C0CE001B30B446DF008C60CD /* MetalPreviewView.swift */,
+				C0CE001C30B446DF008C60CD /* VideoRecorder.swift */,
+				C0CE001D30B446DF008C60CD /* TeleprompterOverlayView.swift */,
+				C0CE001E30B446DF008C60CD /* OnboardingView.swift */,
+				D5FFAD7130B446E3008C60CD /* Assets.xcassets */,
+				D5FFAD7630B446E3008C60CD /* Cove.entitlements */,
+				D5FFAD7330B446E3008C60CD /* Preview Content */,
+			);
+			path = Cove;
+			sourceTree = "<group>";
+		};
+		D5FFAD7330B446E3008C60CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5FFAD7430B446E3008C60CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5FFAD7E30B446E4008C60CD /* CoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5FFAD7F30B446E4008C60CD /* CoveTests.swift */,
+			);
+			path = CoveTests;
+			sourceTree = "<group>";
+		};
+		D5FFAD8830B446E4008C60CD /* CoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5FFAD8930B446E4008C60CD /* CoveUITests.swift */,
+				D5FFAD8B30B446E4008C60CD /* CoveUITestsLaunchTests.swift */,
+			);
+			path = CoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5FFAD6930B446DF008C60CD /* Cove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FFAD8F30B446E4008C60CD /* Build configuration list for PBXNativeTarget "Cove" */;
+			buildPhases = (
+				D5FFAD6630B446DF008C60CD /* Sources */,
+				D5FFAD6730B446DF008C60CD /* Frameworks */,
+				D5FFAD6830B446DF008C60CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cove;
+			productName = Cove;
+			productReference = D5FFAD6A30B446DF008C60CD /* Cove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5FFAD7A30B446E4008C60CD /* CoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FFAD9230B446E4008C60CD /* Build configuration list for PBXNativeTarget "CoveTests" */;
+			buildPhases = (
+				D5FFAD7730B446E4008C60CD /* Sources */,
+				D5FFAD7830B446E4008C60CD /* Frameworks */,
+				D5FFAD7930B446E4008C60CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FFAD7D30B446E4008C60CD /* PBXTargetDependency */,
+			);
+			name = CoveTests;
+			productName = CoveTests;
+			productReference = D5FFAD7B30B446E4008C60CD /* CoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5FFAD8430B446E4008C60CD /* CoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FFAD9530B446E4008C60CD /* Build configuration list for PBXNativeTarget "CoveUITests" */;
+			buildPhases = (
+				D5FFAD8130B446E4008C60CD /* Sources */,
+				D5FFAD8230B446E4008C60CD /* Frameworks */,
+				D5FFAD8330B446E4008C60CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FFAD8730B446E4008C60CD /* PBXTargetDependency */,
+			);
+			name = CoveUITests;
+			productName = CoveUITests;
+			productReference = D5FFAD8530B446E4008C60CD /* CoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5FFAD6230B446DF008C60CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D5FFAD6930B446DF008C60CD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D5FFAD7A30B446E4008C60CD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D5FFAD6930B446DF008C60CD;
+					};
+					D5FFAD8430B446E4008C60CD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D5FFAD6930B446DF008C60CD;
+					};
+				};
+			};
+			buildConfigurationList = D5FFAD6530B446DF008C60CD /* Build configuration list for PBXProject "Cove" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5FFAD6130B446DF008C60CD;
+			productRefGroup = D5FFAD6B30B446DF008C60CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5FFAD6930B446DF008C60CD /* Cove */,
+				D5FFAD7A30B446E4008C60CD /* CoveTests */,
+				D5FFAD8430B446E4008C60CD /* CoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5FFAD6830B446DF008C60CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FFAD7530B446E3008C60CD /* Preview Assets.xcassets in Resources */,
+				D5FFAD7230B446E3008C60CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FFAD7930B446E4008C60CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FFAD8330B446E4008C60CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5FFAD6630B446DF008C60CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FFAD7030B446DF008C60CD /* ContentView.swift in Sources */,
+				D5FFAD6E30B446DF008C60CD /* CoveApp.swift in Sources */,
+				C0CE000130B446DF008C60CD /* CoveTheme.swift in Sources */,
+				C0CE000230B446DF008C60CD /* CameraModels.swift in Sources */,
+				C0CE000330B446DF008C60CD /* CameraManager.swift in Sources */,
+				C0CE000430B446DF008C60CD /* CameraPreviewView.swift in Sources */,
+				C0CE000530B446DF008C60CD /* MainWindowView.swift in Sources */,
+				C0CE000630B446DF008C60CD /* MediaStorageManager.swift in Sources */,
+				C0CE000730B446DF008C60CD /* GalleryView.swift in Sources */,
+				C0CE000830B446DF008C60CD /* CompositionOverlayView.swift in Sources */,
+				C0CE000930B446DF008C60CD /* SettingsView.swift in Sources */,
+				C0CE000A30B446DF008C60CD /* ImageProcessor.swift in Sources */,
+				C0CE000B30B446DF008C60CD /* MetalPreviewView.swift in Sources */,
+				C0CE000C30B446DF008C60CD /* VideoRecorder.swift in Sources */,
+				C0CE000D30B446DF008C60CD /* TeleprompterOverlayView.swift in Sources */,
+				C0CE000E30B446DF008C60CD /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FFAD7730B446E4008C60CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FFAD8030B446E4008C60CD /* CoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FFAD8130B446E4008C60CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FFAD8A30B446E4008C60CD /* CoveUITests.swift in Sources */,
+				D5FFAD8C30B446E4008C60CD /* CoveUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5FFAD7D30B446E4008C60CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FFAD6930B446DF008C60CD /* Cove */;
+			targetProxy = D5FFAD7C30B446E4008C60CD /* PBXContainerItemProxy */;
+		};
+		D5FFAD8730B446E4008C60CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FFAD6930B446DF008C60CD /* Cove */;
+			targetProxy = D5FFAD8630B446E4008C60CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5FFAD8D30B446E4008C60CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5FFAD8E30B446E4008C60CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D5FFAD9030B446E4008C60CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cove/Cove.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cove/Preview Content\"";
+				DEVELOPMENT_TEAM = PHDVFWD7NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cove needs access to your camera to display a live preview, capture photos, and record videos.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cove needs access to your microphone to record audio with your videos.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiokharis.Cove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5FFAD9130B446E4008C60CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cove/Cove.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cove/Preview Content\"";
+				DEVELOPMENT_TEAM = PHDVFWD7NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cove needs access to your camera to display a live preview, capture photos, and record videos.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cove needs access to your microphone to record audio with your videos.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiokharis.Cove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5FFAD9330B446E4008C60CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHDVFWD7NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiokharis.CoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cove";
+			};
+			name = Debug;
+		};
+		D5FFAD9430B446E4008C60CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHDVFWD7NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiokharis.CoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cove";
+			};
+			name = Release;
+		};
+		D5FFAD9630B446E4008C60CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHDVFWD7NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiokharis.CoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cove;
+			};
+			name = Debug;
+		};
+		D5FFAD9730B446E4008C60CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHDVFWD7NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studiokharis.CoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5FFAD6530B446DF008C60CD /* Build configuration list for PBXProject "Cove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FFAD8D30B446E4008C60CD /* Debug */,
+				D5FFAD8E30B446E4008C60CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FFAD8F30B446E4008C60CD /* Build configuration list for PBXNativeTarget "Cove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FFAD9030B446E4008C60CD /* Debug */,
+				D5FFAD9130B446E4008C60CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FFAD9230B446E4008C60CD /* Build configuration list for PBXNativeTarget "CoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FFAD9330B446E4008C60CD /* Debug */,
+				D5FFAD9430B446E4008C60CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FFAD9530B446E4008C60CD /* Build configuration list for PBXNativeTarget "CoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FFAD9630B446E4008C60CD /* Debug */,
+				D5FFAD9730B446E4008C60CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5FFAD6230B446DF008C60CD /* Project object */;
+}
